@@ -1,0 +1,28 @@
+{
+  "name": "demns",
+  "version": "0.0.0",
+  "description": "travis-ci try",
+  "main": "server.js",
+  "dependencies": {
+    "jshint": "^2.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demns/travis-nodejs-test.git"
+  },
+  "keywords": [
+    "travis",
+    "test"
+  ],
+  "author": "Dzmitry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demns/travis-nodejs-test/issues"
+  },
+  "homepage": "https://github.com/demns/travis-nodejs-test"
+}
