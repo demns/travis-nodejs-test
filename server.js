@@ -6,7 +6,7 @@ var serveStatic = require('serve-static');
 var serve = serveStatic("./");
 
 var server = http.createServer(function(req, res) {
-  var done = finalhandler(req, res);123132
+  var done = finalhandler(req, res);
   serve(req, res, done);
 });
 
